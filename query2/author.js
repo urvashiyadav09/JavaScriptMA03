@@ -16,6 +16,11 @@ var authorJson = {
 console.log((authorJson.video)[0].id);
 console.log((authorJson.video)[0].name);
 console.log((authorJson.video)[0].url);
-console.log((authorJson.video)[0].author.data[0].name_author);
-console.log((authorJson.video)[0].author.data[0].url);
-console.log((authorJson.video)[0].author.data[0].type);
+
+for (var i=0; i<((authorJson.video)[0].author.data.length);i++){
+console.log((authorJson.video)[0].author.data[i].name_author);
+console.log((authorJson.video)[0].author.data[i].url);
+console.log((authorJson.video)[0].author.data[i].type);
+
+}
+
