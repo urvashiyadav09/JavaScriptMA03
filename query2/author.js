@@ -12,7 +12,7 @@ var authorJson = {
  }
 }]
 }
-("hi");
+
 console.log((authorJson.video)[0].id);
 console.log((authorJson.video)[0].name);
 console.log((authorJson.video)[0].url);

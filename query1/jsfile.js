@@ -19,9 +19,9 @@ document.getElementById("submit").addEventListener("click", function() {
       for (var i = 2; i<nameArray.length; i++)
 
         console.log( nameArray[i].value);
-        var theInput = nameArray[i].value;
-        var thePattern = new RegExp(nameArray[i].pattern);
-        var theTest = thePattern.test(theInput);
-        console.log(theTest);
+        var value1 = nameArray[i].value;
+        var valuePattern = new RegExp(nameArray[i].pattern);
+        var patternTest = thePattern.test(value1);
+        console.log(patternTest);
 
     });
